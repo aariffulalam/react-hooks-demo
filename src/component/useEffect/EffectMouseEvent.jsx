@@ -13,7 +13,11 @@ const EffectMouseEvent = () => {
     useEffect(()=>{
         console.log("useEffected effected")
         window.addEventListener("mousemove", logMousePosition)
-    }, [])
+        return ()=>{
+            console.log("component unmounted code")
+            document.removeEventListener("mousemove", logMousePosition)
+        }
+    },[])
 
     return (
         <>

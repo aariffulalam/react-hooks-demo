@@ -7,6 +7,7 @@ import { StateHookCounterFour } from './component/useState/StateHookCounterFour'
 
 import EffectHookCouterOne from "./component/useEffect/EffectHookCouterOne"
 import EffectMouseEvent from './component/useEffect/EffectMouseEvent';
+import MouseContainer from './component/useEffect/MouseContainer';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <StateHookCounterThree/> */}
       {/* <StateHookCounterFour/> */}
       {/* <EffectHookCouterOne/> */}
-      <EffectMouseEvent/>
+      {/* <EffectMouseEvent/> */}
+      <MouseContainer/>
     </div>
   );
 }
