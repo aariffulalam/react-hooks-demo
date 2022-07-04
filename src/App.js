@@ -1,16 +1,20 @@
 import './App.css';
-import HookCounter from './component/HookCounter';
-import { HookCounterFour } from './component/HookCounterFour';
-import HookCounterThree from './component/HookCounterThree';
-import HookCounterTwo from './component/HookCounterTwo';
+
+import StateHookCounter from './component/useState/StateHookCounter';
+import StateHookCounterTwo from './component/useState/StateHookCounterTwo';
+import StateHookCounterThree from './component/useState/StateHookCounterThree';
+import { StateHookCounterFour } from './component/useState/StateHookCounterFour';
+
+import EffectHookCouterOne from "./component/useEffect/EffectHookCouterOne"
 
 function App() {
   return (
     <div className="App">
-      {/* <HookCounter/> */}
-      {/* <HookCounterTwo/> */}
-      {/* <HookCounterThree/> */}
-      <HookCounterFour/>
+      {/* <StateHookCounter/> */}
+      {/* <StateHookCounterTwo/> */}
+      {/* <StateHookCounterThree/> */}
+      {/* <StateHookCounterFour/> */}
+      <EffectHookCouterOne/>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-export const HookCounterThree = () => {
+const StateHookCounterThree = () => {
     const [name, setName] = useState({
         firstName : "",
         lastName : ""
@@ -18,4 +18,4 @@ export const HookCounterThree = () => {
     // in class based usestate marge object bydefault but in function based we need to mearged manually, like this {...name, lastName:e.target.value}
   )
 };
-export default HookCounterThree;
+export default StateHookCounterThree;

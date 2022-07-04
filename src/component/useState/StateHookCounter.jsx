@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-function HookCounter(){
+function StateHookCounter(){
     const [state, setState] = useState(0)
     return (
         <>
@@ -9,4 +9,4 @@ function HookCounter(){
         </>
     )
 };
-export default HookCounter;
+export default StateHookCounter;
