@@ -8,6 +8,7 @@ import { StateHookCounterFour } from './component/useState/StateHookCounterFour'
 import EffectHookCouterOne from "./component/useEffect/EffectHookCouterOne"
 import EffectMouseEvent from './component/useEffect/EffectMouseEvent';
 import MouseContainer from './component/useEffect/MouseContainer';
+import EffectHoolInterval from './component/useEffect/EffectHookInterval';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <StateHookCounterFour/> */}
       {/* <EffectHookCouterOne/> */}
       {/* <EffectMouseEvent/> */}
-      <MouseContainer/>
+      {/* <MouseContainer/> */}
+      <EffectHoolInterval/>
     </div>
   );
 }
